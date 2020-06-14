@@ -159,7 +159,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/14/shanghua-fir/">&#39;shanghua-fir&#39;</a>
+      <a class="article-title" href="/2020/06/14/shanghua-fir/">&#39;css解决外边距溢出&#39;</a>
     </h1>
   
 
@@ -172,7 +172,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>去吧</p>
+        <p>什么是外边距溢出<br>溢出就是当内容较大，元素区域较小，就会发生溢出效果。外边距溢出就是在父元素没设置边框情况下，为子元素设置外边距，导致了父元素跟着子元素一起产生位移。</p>
+<p>如何解决：<br>1.给父元素添加上边框或上内边距，弊端：会改变父元素实际占地高度。<br>2.在第一个子元素前添加空table元素</p>
 
       
 
@@ -215,19 +216,19 @@
 
 
   
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-shanghua-sec" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/13/hello-world/">Hello World</a>
+      <a class="article-title" href="/2020/06/13/shanghua-sec/">Hello World</a>
     </h1>
   
 
         
-        <a href="/2020/06/13/hello-world/" class="archive-article-date">
+        <a href="/2020/06/13/shanghua-sec/" class="archive-article-date">
   	<time datetime="2020-06-13T14:42:54.772Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-13</time>
 </a>
         
@@ -235,19 +236,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>bootstrap是干嘛的<br>bootstrap是个前端开发框架，人家已经写好了各种基础的美观的控件样式，我们开发前端时可以直接引用就可以了，从而免去再对那些基础的繁琐的控件从零写起，把更多心思放在其他个性化设计上，提高效率。</p>
+<p>bootstrap怎么用<br>1.去bootstrap官网下载，网址：<a href="https://v3.bootcss.com/getting-started/#download。" target="_blank" rel="noopener">https://v3.bootcss.com/getting-started/#download。</a><br>2. 下载之后解压缩。<br>3.在刚刚解压的文件中，把需要的css、js文件夹复制进去项目的一级目录下。<br>4.创建html文件，手敲代码引入bootstrap的css、js文件。注意：这四个文件的顺序不能乱，不然会出错的。</p>
+   <!-- 导入css-->
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap.css&quot;/&gt;
+&lt;!-- 导入3个js,有顺序要求--&gt;
+&lt;script src=&quot;js/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;js/popper.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;</code></pre><p>回到html代码，按住ctrl点击btn-success，就跳到bootstrap.css中相应的样式说明。</p>
 
       
 
@@ -260,7 +256,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/06/13/hello-world/">展开全文 >></a>
+          <a class="article-more-a" href="/2020/06/13/shanghua-sec/">展开全文 >></a>
         </p>
       
 
