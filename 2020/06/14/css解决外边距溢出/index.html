@@ -6,13 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>叶尚华的博客</title>
+  <title>&#39;css解决外边距溢出&#39; | 叶尚华的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="叶尚华的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="溢出就是当内容较大，元素区域较小，就会发生溢出效果。外边距溢出就是在父元素没设置边框情况下，为子元素设置外边距，导致了父元素跟着子元素一起产生位移。 如何解决：1.给父元素添加上边框或上内边距，弊端：会改变父元素实际占地高度。2.在第一个子元素前添加空table元素">
+<meta property="og:type" content="article">
+<meta property="og:title" content="&#39;css解决外边距溢出&#39;">
+<meta property="og:url" content="http://yoursite.com/2020/06/14/css%E8%A7%A3%E5%86%B3%E5%A4%96%E8%BE%B9%E8%B7%9D%E6%BA%A2%E5%87%BA/index.html">
 <meta property="og:site_name" content="叶尚华的博客">
+<meta property="og:description" content="溢出就是当内容较大，元素区域较小，就会发生溢出效果。外边距溢出就是在父元素没设置边框情况下，为子元素设置外边距，导致了父元素跟着子元素一起产生位移。 如何解决：1.给父元素添加上边框或上内边距，弊端：会改变父元素实际占地高度。2.在第一个子元素前添加空table元素">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-06-14T06:54:26.000Z">
+<meta property="article:modified_time" content="2020-07-17T03:36:55.935Z">
 <meta property="article:author" content="ye shanghua">
 <meta name="twitter:card" content="summary">
   
@@ -150,82 +154,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-css定位" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-css解决外边距溢出" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/07/17/css%E5%AE%9A%E4%BD%8D/">&#39;css定位&#39;</a>
-    </h1>
-  
-
-        
-        <a href="/2020/07/17/css%E5%AE%9A%E4%BD%8D/" class="archive-article-date">
-  	<time datetime="2020-07-17T03:29:10.736Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="css定位"><a href="#css定位" class="headerlink" title="css定位"></a>css定位</h2><p>1.普通流定位，又叫文档流定位，没写定位就是默认这种定位。文档流定位就像我们写作文的文字排列顺序，每个字都会占有自己的空间，同一行内从左往右排，不同行从上往下排。文档流差不多这个意思，行内元素就是从左往右紧挨着排列，同一行内放满放不下了就到下一行，块级元素自己占一行，从上往下的一行一行排。</p>
-<p>2.浮动定位<br>块级元素如果按文档流定位，就是一个块级元素占一行，从上往下一行一行排，但如果想要块级元素从左往右排在同一行怎么办，于是有了浮动定位。<br>写法：float:left/right/none;</p>
-        
-          <a class="article-more-a" href="/2020/07/17/css%E5%AE%9A%E4%BD%8D/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/07/17/css%E5%AE%9A%E4%BD%8D/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-css解决外边距溢出" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/14/css%E8%A7%A3%E5%86%B3%E5%A4%96%E8%BE%B9%E8%B7%9D%E6%BA%A2%E5%87%BA/">&#39;css解决外边距溢出&#39;</a>
+    <h1 class="article-title" itemprop="name">
+      &#39;css解决外边距溢出&#39;
     </h1>
   
 
@@ -244,6 +180,27 @@
       
 
       
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
     </div>
     <div class="article-info article-info-index">
       
@@ -251,16 +208,84 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/06/14/css%E8%A7%A3%E5%86%B3%E5%A4%96%E8%BE%B9%E8%B7%9D%E6%BA%A2%E5%87%BA/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/06/14/css%E8%A7%A3%E5%86%B3%E5%A4%96%E8%BE%B9%E8%B7%9D%E6%BA%A2%E5%87%BA/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2020/07/17/css%E5%AE%9A%E4%BD%8D/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          &#39;css定位&#39;
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/06/13/bootstrap%E4%BD%BF%E7%94%A8/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">bootstrap怎么用</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -280,79 +305,14 @@
 
 
 
-
   
-    <article id="post-bootstrap使用" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/13/bootstrap%E4%BD%BF%E7%94%A8/">bootstrap怎么用</a>
-    </h1>
   
 
-        
-        <a href="/2020/06/13/bootstrap%E4%BD%BF%E7%94%A8/" class="archive-article-date">
-  	<time datetime="2020-06-13T14:42:54.772Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-13</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>1.去bootstrap官网下载，网址：<a href="https://v3.bootcss.com/getting-started/#download。" target="_blank" rel="noopener">https://v3.bootcss.com/getting-started/#download。</a><br>2. 下载之后解压缩。<br>3.在刚刚解压的文件中，把需要的css、js文件夹复制进去项目的一级目录下。<br>4.创建html文件，手敲代码引入bootstrap的css、js文件。注意：这四个文件的顺序不能乱，不然会出错的。</p>
-   <!-- 导入css-->
-<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap.css&quot;/&gt;
-&lt;!-- 导入3个js,有顺序要求--&gt;
-&lt;script src=&quot;js/jquery.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;js/popper.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;</code></pre>
-        
-          <a class="article-more-a" href="/2020/06/13/bootstrap%E4%BD%BF%E7%94%A8/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/06/13/bootstrap%E4%BD%BF%E7%94%A8/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
+  
 
   
+
   
 
 
@@ -375,8 +335,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
